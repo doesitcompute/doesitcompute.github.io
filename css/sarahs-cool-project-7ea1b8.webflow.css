@@ -175,6 +175,8 @@ figcaption {
 .image-logo {
   margin-top: 0px;
   margin-bottom: 0px;
+  max-width: 250px !important;
+  max-height: 72px !important;
 }
 
 .nav-link {
@@ -1403,6 +1405,10 @@ figcaption {
   .image-logo {
     position: relative;
     z-index: 9999;
+    height: auto;
+    width: auto;
+    max-width: 250px !important;
+    max-height: 72px !important;
   }
 
   .container {
@@ -1900,4 +1906,3 @@ figcaption {
     flex-wrap: wrap;
   }
 }
-
